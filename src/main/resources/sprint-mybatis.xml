@@ -29,6 +29,8 @@
         <property name="acquireRetryAttempts" value="${c3p0.acquireRetryAttempts}"/>
     </bean>
 
+
+
     <!-- 配置SqlSessionFactory对象 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <!-- 注入数据库连接池 -->
